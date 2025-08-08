@@ -7,7 +7,7 @@ public class LoginTest {
 
     @Test
     public void testLoginSuccess() {
-        String expected = "Welcome";
+        String expected = "Hello";
         String actual = "Welcome"; // mock login result
         Assert.assertEquals(actual, expected, "Login should succeed");
     }

@@ -1,0 +1,30 @@
+# Maven target directory
+/target/
+
+# Eclipse specific files
+.classpath
+.project
+.settings/
+
+# IntelliJ IDEA files (if opened in IntelliJ)
+/.idea/
+/*.iml
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Logs and temp
+*.log
+*.tmp
+
+# Test output or reports (optional)
+surefire-reports/
+test-output/
+
+# Environment or config secrets (if used)
+/.env
+*.local
+
+# Ignore compiled class files
+*.class

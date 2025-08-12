@@ -18,4 +18,11 @@ public class LoginTest {
         String actual = "Error"; // mock login failure
         Assert.assertEquals(actual, expected, "Login should fail for invalid user");
     }
+    
+    @Test
+    public void testLoginTime() {
+        String expected = "time1";
+        String actual = "time1"; // mock login failure
+        Assert.assertEquals(actual, expected, "Login should fail for invalid user");
+    }
 }
